@@ -11,10 +11,30 @@ This project hosts the PHP client library for the various SOAP-based Ads APIs
 
 ### Getting started
 
+0. Add this forked repo to the composer.json
+
+
+```
+    "repositories": [
+        {
+            "type":"package",
+            "package": {
+                "name": "dan-rally/googleads-php-lib",
+                "version":"master",
+                "source": {
+                    "url": "https://github.com/dan-rally/googleads-php-lib.git",
+                    "type": "git",
+                    "reference":"master"
+                }
+            }
+        }
+    ],
+```
+
 1. Install the latest BETA version using [Composer](https://getcomposer.org/).
 
   ```
-  $ php composer.phar require googleads/googleads-php-lib:dev-experimental
+  $ php composer.phar require dan-rally/googleads-php-lib:dev-experimental
   ```
 
 1. Copy the sample **adsapi_php.ini** for your product to your home directory
