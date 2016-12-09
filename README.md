@@ -17,16 +17,8 @@ This project hosts the PHP client library for the various SOAP-based Ads APIs
 ```
     "repositories": [
         {
-            "type":"package",
-            "package": {
-                "name": "dan-rally/googleads-php-lib",
-                "version":"master",
-                "source": {
-                    "url": "https://github.com/dan-rally/googleads-php-lib.git",
-                    "type": "git",
-                    "reference":"master"
-                }
-            }
+            "url": "https://github.com/dan-rally/googleads-php-lib.git",
+            "type": "git"
         }
     ],
 ```
