@@ -11,7 +11,7 @@ This project hosts the PHP client library for the various SOAP-based Ads APIs
 
 ### Getting started
 
-0. Add this forked repo to the composer.json
+**For foked version only, add this repo to the composer.json**
 
 
 ```
