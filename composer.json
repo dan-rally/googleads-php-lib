@@ -1,5 +1,5 @@
 {
-  "name": "googleads/googleads-php-lib",
+  "name": "dan-rally/googleads-php-lib",
   "description": "Google Ads APIs Client Library for PHP (AdWords and DFP)",
   "require": {
     "php": ">=5.5.9",
